@@ -1,0 +1,164 @@
+
+<html>
+<head>
+<title>gym page</title>
+<style type="text/css">
+ *{
+ margin:0px;
+ padding:0px;
+}
+body{
+background-image:url('fit image.jpg');
+background-size:cover;
+}
+header{
+background-color: orange;
+
+}
+.left{
+ 
+display:in-block;
+position:absolute;
+left:60px;
+top:20px;
+
+}
+.mid{
+
+display:block;
+width:50%;
+margin:20px auto;
+
+}
+.right{
+
+position:absolute;
+right:34px;
+top:20px;
+}
+.navbar li{
+display:inline-block;
+font-size:25px;
+font-style:italic;
+font-weight:bold;
+}
+.navbar li a{
+ text-decoration:none;
+ color:blue;
+ padding:10px;
+}
+.navbar li a:hover{
+color:grey;
+text-decoration:underline;
+}
+.navbar li a:active{
+color:red;
+}
+.left img{
+width:33px;
+
+}
+.left div{
+color:red;
+left-padding:10px;
+font-family:arial;
+font-size:15px;
+text-align:center;
+
+font-style:italic;
+}
+.btn{
+color:red;
+padding:4px 4px;
+margin:0px 12px;
+font-size:20px;
+border:1px solid grey;
+border-radius:25px;
+cursor:pointer;
+}
+.btn:hover{
+color:blue;
+}
+.btn:active{
+color:grey;
+}
+.container{
+background-color:orange;
+
+position:absolute;
+padding:10px ;
+
+width:40%;
+margin:50px 71px;
+}
+.form-group input{
+
+margin:5px 110px;
+text-align:center;
+font-size:12px;
+width:200px;
+padding:4px ;
+border:1px solid grey;
+border-radius:8px;
+font-family:arial
+}
+.container button{
+display:block;
+width:23%;
+margin:auto;
+border-radius:2px;
+}
+.container h1{
+text-align:center;
+}
+.button a{
+text-decoration:none;
+}
+</style>
+</head>
+<body>
+<header class="header">
+<div class="left">
+<img src="./gym logo.jpg" alt="">
+
+<div>Fitness center</div>
+</div>
+<div class="mid">
+<ul class="navbar">
+   <li><a href="#">HOME</a></li>
+   <li><a href="#">About Us</a></li>
+   <li><a href="#">Fittness calculator</a></li>
+  <li><a href="contact.html">Contact</a></li>
+</ul>
+</div>
+<div class="right">
+<a href="contact.html"><button class="btn">call us</button></a>
+<button class="btn">email us</button>
+</div>
+<div>  </div>
+</header>
+<div class="container">
+<h1> Join in the fitness center now</h1>
+  <form action ="noaction.php">
+    <div class="form-group">
+
+      <input type="text" name="" placeholder="your name">
+</div>
+<div class="form-group">
+      <input type="number" name="" placeholder="your age">
+</div>
+<div class="form-group">
+
+      <input type="text" name="" placeholder="your gender">
+</div>
+<div class="form-group">
+
+      <input type="text" name="" placeholder="your locality">
+</div>
+  <div class="button">
+<button><a href="response.html">submit</a></button>
+</div>
+   </form>
+</div>
+</body>
+</html>
