@@ -1,0 +1,56 @@
+/* media quires */
+@media only screen and (max-width:480px) {
+  body{
+    overflow: hidden;
+  }
+  .whole {
+    width: 70%;
+    height: auto;
+    align-items: center;
+    padding:10px;
+  }
+
+  .card {
+    width: 40%;
+    height: 100px;
+  }
+.text{
+text-align: center;
+  
+  }
+  .text span{
+    padding: 30px;
+    }
+}
+
+
+/* media quires */
+@media only screen and (min-width: 1280px) {
+  body{
+    overflow: hidden;
+  }
+  .text{
+    margin-top:80px;
+  }
+  .whole {
+    margin-top:30px;
+    height:450px;
+    width:550px;
+    align-items: center;
+    padding:10px;
+  }
+
+  .card {
+    height:35%;
+    width:30%;
+  }
+.text{
+text-align: center;
+  
+  }
+  .text span{
+    padding: 30px;
+    }
+}
+
+

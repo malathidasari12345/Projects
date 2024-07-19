@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Memory Challange</title>
+    <link rel="icon" type="image/png" href="./images/logo.jpg">
+    <link rel="stylesheet" href="./imedia.css">
+    <link rel="stylesheet" href=" https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <style>
+    body{
+  min-height: 100vh;
+  background-image: url(./images/bg1.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  overflow: hidden;
+    }
+    .main{
+        text-align: center;
+         /* margin:20px;  */
+        font-family:Arial, Helvetica, sans-serif;
+        }
+        .main i{
+          font-size:50px;
+          color:lightslategrey
+
+        }
+     
+        .main button{
+            width:180px;
+            height:40px;
+            border-radius:20px;
+            text-align: center;
+            font-style: italic;
+            font-weight:bold;
+            font-size: 30px;
+          }
+        .e{
+            background-color:greenyellow;
+             border:2px solid greenyellow;
+             cursor: pointer;
+             
+           }
+         .m{
+            background-color:lightseagreen;
+             border:2px solid lightseagreen;
+             cursor: pointer;
+            }
+         .h{
+             background-color:lightcoral;
+             border:2px solid lightcoral;
+             cursor: pointer;
+            }
+            .Name{
+               /* margin-top:20px; */
+               font-size:50px;
+              text-align:center;
+            color:blue;
+            }
+            P{
+              font-size:30px;
+              text-align: center;
+              color:purple;
+              font-weight: bold;
+            }  
+@media only screen and (min-width: 1280px) and (max-width:1920px){
+    body{
+      overflow: hidden;
+      text-align:center;
+    }
+  
+    .Name{
+        margin-top:80px;
+          }
+          .main{
+            margin-top:40px;
+          }
+        }
+    </style>
+</head>
+<body>
+    <div class="Name">
+     <b>  MEMORY </b> <br>
+     <b>CHALLANGE</b> 
+    </div>
+    <p>Let's see how many items you can memorize! 😎</p>
+       <!-- <a href="./hard.html"></a> --> 
+    <div class="main">
+        <i class="fa-solid fa-house"></i><br><br>
+        <button class="e">EASY</button><br><br>
+        <button class="m">MEDIUM</button><br><br>
+        <button class="h">HARD</button><br><br>
+     </div>
+    
+        <script>
+          //  for easy level
+          
+          var easy = document.getElementsByClassName("e")
+          easy[0].addEventListener("click",function(){
+            window.location.assign("./easy.html")
+          });
+
+          // for medium level
+
+          var medium = document.getElementsByClassName("m")
+          medium [0].addEventListener("click",function(){
+            window.location.assign("./medium.html")
+          });
+          // for hard level
+          var Hard = document.getElementsByClassName("h")
+          Hard[0].addEventListener("click",function(){
+            window.location.assign("./hard.html")
+          });
+        </script>
+   
+</body>
+</html>
